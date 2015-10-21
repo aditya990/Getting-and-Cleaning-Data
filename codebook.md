@@ -1,7 +1,7 @@
 
 ## This file contains descriptions of all the variables used in the run_analysis.R file
 
- -activities	: contains activity label and its corresponding activity
+ - activities	: contains activity label and its corresponding activity
  
  *train_data 	: contains data of x_train.txt
  *train_var  	: contains data of y_train.txt
