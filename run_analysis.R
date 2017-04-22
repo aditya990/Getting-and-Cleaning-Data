@@ -15,7 +15,7 @@ colnames(sub_train) = "Subject_ID"
 
 # prepare training data set
 merge_activities = merge(train_var,activities, by = "Activity_ID")
-header_train = cbind(sub_train,merge_activites)
+header_train = cbind(sub_train,merge_activities)
 train_dataset = cbind(header_train,train_data)
 
 # read testing data files
